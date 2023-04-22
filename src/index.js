@@ -1,4 +1,5 @@
 import { pageLoard } from "./page-load";
+import './style.css';
 
 
 console.log("New project baby");
