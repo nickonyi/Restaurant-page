@@ -1,6 +1,8 @@
 import img from './rest-1.jpg';
-import imeg from './don.png';
-import emo from './oval.png';
+import imeg from './pancakes-1.jpg';
+import emo from './salads-1.jpg';
+import { FaApple } from "react-icons/fa";
+
 
 function pageLoard() {
     const content = document.getElementById('content');
@@ -9,6 +11,8 @@ function pageLoard() {
     const para = document.createElement('p');
     const para1 = document.createElement('p');
     const para2 = document.createElement('p');
+
+
 
     headingO.textContent = "Explanation on the Best Restaurant";
     myImage.src = img;
@@ -20,7 +24,7 @@ function pageLoard() {
     const ovali = new Image();
     ovali.src = emo;
     para2.textContent = "Price: The best restaurant should offer good value for money, with reasonable and affordable prices.Ambience: The atmosphere of a restaurant can greatly affect the dining experience, so the best restaurant should have an atmosphere that suits your preferences, whether it be formal or casual, romantic or familial, lively or tranquil.always helpful to read reviews from other customers to get a sense of what others think of the restaurant. You can check out review sites like Yelp, TripAdvisor, or Google Reviews, to learn more about a particular restaurant"
-
+    para2.textContent = FaApple();
     const elements = [headingO, myImage, image, ovali, para, para1, para2];
     for (let i = 0; i < elements.length; i++) {
         content.appendChild(elements[i]);
