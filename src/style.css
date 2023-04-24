@@ -9,13 +9,28 @@ body {
 }
 
 .container {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background: #fff;
-    ;
 }
 
 .logo {
     height: 100px;
     width: 100px;
+}
+
+.nav-bar {
+    border: 1px solid lime;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar div {
+    border: 1px solid red;
+}
+
+.nav-div-container {
+    display: flex;
+    justify-content: space-evenly;
 }
