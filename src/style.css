@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Lobster&family=Oswald:wght@300;400;500;600&family=Roboto+Condensed&family=Sevillana&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
     background-color: aquamarine;
+    width: 100vw;
+    font-family: 'Alef', sans-serif;
 }
 
 .container {
@@ -17,20 +22,28 @@ body {
 .logo {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
 }
 
 .nav-bar {
-    border: 1px solid lime;
-    padding-inline: 2rem;
-    display: flex;
-    justify-content: space-between;
+    background: #fff;
+    height: 80px;
+    width: 100%;
 }
 
 .nav-bar div {
     border: 1px solid red;
 }
 
-.nav-div-container {
-    display: flex;
-    justify-content: space-evenly;
+nav ul {
+    float: right;
+    margin-right: 200px;
 }
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+
+.nav-div-container {}
