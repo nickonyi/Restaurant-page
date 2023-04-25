@@ -1,7 +1,7 @@
 import foodLogo from './food-logo.png';
-const wrapper = document.createElement('div');
-wrapper.classList.add('container');
-content.appendChild(wrapper);
+const wrapper = document.createElement('section');
+wrapper.classList.add('header');
+document.body.appendChild(wrapper);
 
 function pageHeader() {
 
@@ -53,11 +53,10 @@ function navBar() {
     navDivFour.textContent = "Contact us";
     navBtn.textContent = "Booking Now";
 
-
+    navBar.appendChild(checkbox);
+    navBar.appendChild(checkLabel)
     navBar.appendChild(logoDiv);
     navBar.appendChild(navDivContainer);
-    navBar.appendChild(checkLabel);
-    navBar.appendChild(checkbox);
     wrapper.appendChild(navBar);
 
 
