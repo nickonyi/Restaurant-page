@@ -13,6 +13,17 @@ function navBar() {
     const navBar = document.createElement('nav');
     navBar.classList.add('nav-bar');
 
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = 'check-btn';
+
+    const checkLabel = document.createElement('label');
+    checkLabel.setAttribute('for', 'check-btn');
+    checkLabel.classList.add('check');
+    const iconLabel = document.createElement("i");
+    iconLabel.classList.add("fas", "fa-bars");
+    checkLabel.appendChild(iconLabel);
+
     const logoDiv = document.createElement('label');
     const logo = new Image();
     logo.classList.add('logo');
@@ -45,6 +56,8 @@ function navBar() {
 
     navBar.appendChild(logoDiv);
     navBar.appendChild(navDivContainer);
+    navBar.appendChild(checkLabel);
+    navBar.appendChild(checkbox);
     wrapper.appendChild(navBar);
 
 
