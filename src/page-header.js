@@ -1,4 +1,5 @@
 import foodLogo from './food-logo.png';
+import bgImageOne from './bg-img-1.png';
 const wrapper = document.createElement('section');
 wrapper.classList.add('header');
 document.body.appendChild(wrapper);
@@ -82,11 +83,15 @@ function pageHeaderContent() {
 
     //creatinng right side divs
     const imageContent = new Image();
+    imageContent.classList.add('content-image');
+    imageContent.src = bgImageOne;
 
 
     divHeaderContentOne.appendChild(divContentH);
     divHeaderContentOne.appendChild(divContentPara);
     divHeaderContentOne.appendChild(divContentBtn);
+
+    divHeaderContentTwo.appendChild(imageContent);
 
     divHeader.appendChild(divHeaderContentOne);
     divHeader.appendChild(divHeaderContentTwo);

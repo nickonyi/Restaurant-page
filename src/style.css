@@ -18,6 +18,8 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .logo {
@@ -72,14 +74,39 @@ nav ul li {
 
 .div-header {
     border: 2px solid blue;
+    display: flex;
+    margin-top: 40px;
+    margin-inline: 4rem;
+    margin-bottom: 90px;
 }
 
 .header-content-1 {
     border: 3px solid lime;
+    padding-inline: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 100px;
+    flex: 4;
+    width: 40%;
+}
+
+.header-content-2 {
+    flex: 1;
+    border: 5px solid yellowgreen;
+    width: 60%;
+}
+
+.header-content-1>h1 {
+    font-size: 2.5rem;
 }
 
 .header-content-1 * {
     border: 2px solid salmon;
+}
+
+.content-image {
+    margin-right: 20px;
 }
 
 
