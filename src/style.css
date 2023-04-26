@@ -8,14 +8,13 @@
 }
 
 body {
-    background-color: aquamarine;
     width: 100vw;
     font-family: 'Alef', sans-serif;
 }
 
 .header {
-    background-image: radial-gradient(at top right, transparent 44%, #fff 25.5%), linear-gradient(100deg, #51a595 0%, #3fcfa2 100%);
-    background-size: 120% 150%, cover;
+    background-image: radial-gradient(at top right, transparent 44%, #fff 25.5%), linear-gradient(100deg, #FFA000 0%, #FFA000 100%);
+    background-size: 120% 170%, cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
@@ -33,9 +32,17 @@ body {
     z-index: 1;
 }
 
+.nav-btn {
+    background: #fff;
+    padding-block: 10px;
+    padding-inline: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 nav ul {
     float: right;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 nav ul li {
@@ -63,7 +70,17 @@ nav ul li {
     display: none;
 }
 
-.nav-div-container {}
+.div-header {
+    border: 2px solid blue;
+}
+
+.header-content-1 {
+    border: 3px solid lime;
+}
+
+.header-content-1 * {
+    border: 2px solid salmon;
+}
 
 
 /*-----------------------------------*/
@@ -93,7 +110,7 @@ nav ul li {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #e7b307;
+        background: #FFA000;
         top: 80px;
         left: -100%;
         text-align: center;

@@ -59,10 +59,40 @@ function navBar() {
     navBar.appendChild(navDivContainer);
     wrapper.appendChild(navBar);
 
+}
 
+
+function pageHeaderContent() {
+    const divHeader = document.createElement('div');
+    divHeader.classList.add('div-header');
+
+    //ceating left side div
+    const divHeaderContentOne = document.createElement('div');
+    divHeaderContentOne.classList.add('header-content-1');
+    const divHeaderContentTwo = document.createElement('div');
+    divHeaderContentTwo.classList.add('header-content-2');
+
+    const divContentH = document.createElement('h1');
+    const divContentPara = document.createElement('p');
+    const divContentBtn = document.createElement('btn');
+
+    divContentH.textContent = "Your favourite food delivered Hot & Fresh";
+    divContentPara.textContent = "Healthy switcher chefs do all the prep work,like peeding,chopping and marrinating,so you can cook a fresh food";
+    divContentBtn.textContent = "Order Now";
+
+    //creatinng right side divs
+    const imageContent = new Image();
+
+
+    divHeaderContentOne.appendChild(divContentH);
+    divHeaderContentOne.appendChild(divContentPara);
+    divHeaderContentOne.appendChild(divContentBtn);
+
+    divHeader.appendChild(divHeaderContentOne);
+    divHeader.appendChild(divHeaderContentTwo);
+    wrapper.appendChild(divHeader);
 
 }
 
 
-
-export { pageHeader, navBar }
+export { pageHeader, navBar, pageHeaderContent }
