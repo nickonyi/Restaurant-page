@@ -1,14 +1,10 @@
 import foodLogo from './food-logo.png';
 import bgImageOne from './bg-img-1.png';
-const wrapper = document.createElement('section');
+const wrapper = document.createElement('div');
 wrapper.classList.add('header');
 document.body.appendChild(wrapper);
 
-function pageHeader() {
 
-
-
-}
 
 function navBar() {
     const navBar = document.createElement('nav');
@@ -75,11 +71,25 @@ function pageHeaderContent() {
 
     const divContentH = document.createElement('h1');
     const divContentPara = document.createElement('p');
+    const divContainBtn = document.createElement('div');
+    divContainBtn.classList.add('div-container-btn');
     const divContentBtn = document.createElement('btn');
+    divContentBtn.classList.add('div-content-btn');
+    divContainBtn.appendChild(divContentBtn);
+
+    const iconLabel = document.createElement("i");
+    iconLabel.classList.add("fa-solid", "fa-arrow-right");
+
+
+
+
+
 
     divContentH.textContent = "Your favourite food delivered Hot & Fresh";
-    divContentPara.textContent = "Healthy switcher chefs do all the prep work,like peeding,chopping and marrinating,so you can cook a fresh food";
+    divContentPara.textContent = "Healthy switcher chefs do all the prep work,like peeding,chopping & marrinating,so you can cook a fresh food";
     divContentBtn.textContent = "Order Now";
+    divContentBtn.appendChild(iconLabel);
+
 
     //creatinng right side divs
     const imageContent = new Image();
@@ -89,7 +99,7 @@ function pageHeaderContent() {
 
     divHeaderContentOne.appendChild(divContentH);
     divHeaderContentOne.appendChild(divContentPara);
-    divHeaderContentOne.appendChild(divContentBtn);
+    divHeaderContentOne.appendChild(divContainBtn);
 
     divHeaderContentTwo.appendChild(imageContent);
 
@@ -100,4 +110,4 @@ function pageHeaderContent() {
 }
 
 
-export { pageHeader, navBar, pageHeaderContent }
+export { navBar, pageHeaderContent }
