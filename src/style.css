@@ -15,7 +15,7 @@ body {
 
 .header {
     background-image: radial-gradient(at top right, transparent 44%, #fff 25.5%), linear-gradient(100deg, #FFA000 0%, #FFA000 100%);
-    background-size: 120% 170%, cover;
+    background-size: 120% 166%, cover;
     background-repeat: no-repeat;
     margin: 0;
     overflow-x: hidden;
@@ -131,12 +131,21 @@ nav ul li {
 /*--------------Div Time section---------------------*/
 
 .div-time-section {
-    height: 300px;
-    background: lawngreen;
+    display: flex;
+    padding-block: 100px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 4px;
 }
 
 .div-time-section>div {
-    border: 3px solid pink;
+    width: 300px;
+    padding-block: 30px;
+    text-align: center;
+    margin-block: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .div-time-section i {
@@ -144,9 +153,20 @@ nav ul li {
     font-size: 2rem;
 }
 
-.fa-square-phone {
-    color: aqua;
-    font-size: 5rem;
+.time-sec-1>*,
+.time-sec-2>*,
+.time-sec-3>* {
+    margin-block: 5px;
+}
+
+.midsec-content {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.foot-content {
+    font-size: 1.1rem;
+    color: #838d8a;
 }
 
 
