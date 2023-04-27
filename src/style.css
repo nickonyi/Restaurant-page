@@ -128,6 +128,28 @@ nav ul li {
 }
 
 
+/*--------------Div Time section---------------------*/
+
+.div-time-section {
+    height: 300px;
+    background: lawngreen;
+}
+
+.div-time-section>div {
+    border: 3px solid pink;
+}
+
+.div-time-section i {
+    color: #FFA000;
+    font-size: 2rem;
+}
+
+.fa-square-phone {
+    color: aqua;
+    font-size: 5rem;
+}
+
+
 /*-----------------------------------*/
 
 

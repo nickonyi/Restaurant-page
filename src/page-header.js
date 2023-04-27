@@ -1,6 +1,6 @@
 import foodLogo from './food-logo.png';
 import bgImageOne from './bg-img-1.png';
-const wrapper = document.createElement('div');
+const wrapper = document.createElement('section');
 wrapper.classList.add('header');
 document.body.appendChild(wrapper);
 
