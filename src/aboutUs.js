@@ -17,16 +17,35 @@ function aboutUs() {
     const heading = document.createElement('h1');
     heading.classList.add('about-sub-header');
     const para2 = document.createElement('p');
-    para2.classList.add('about-sub-para-2');
+    para2.classList.add('about-sub-para-2', 'about-us-text');
     const para3 = document.createElement('p');
-    para3.classList.add('about-sub-para-3');
+    para3.classList.add('about-sub-para-3', 'about-us-text');
+
+    const footerHolder = document.createElement('div');
+    footerHolder.classList.add('footer-holder');
+    const learnMore = document.createElement('div');
+    learnMore.classList.add('learn-more');
+    learnMore.textContent = "Learn More";
+    const learnMoreSec = document.createElement('div');
+    learnMoreSec.classList.add('learn-more-sec');
+    const icon = document.createElement('i');
+    icon.classList.add('fa-solid', 'fa-circle-play')
+    const learnMoreCont = document.createElement('div');
+    learnMoreCont.classList.add('learn-more-content');
+    learnMoreCont.textContent = "Watch video";
+
+    learnMoreSec.appendChild(icon);
+    learnMoreSec.appendChild(learnMoreCont);
+    footerHolder.appendChild(learnMore);
+    footerHolder.appendChild(learnMoreSec);
+
 
 
     para.textContent = "About";
     heading.textContent = "Food Is An Important Part Of A Balanced Diet";
     para2.textContent = "Welcome to Delicious Delights – the go-to spot for foodies in downtown! Our restaurant offers a cozy atmosphere, friendly staff, and, of course, mouth-watering dishes. From classic burgers to authentic Italian pizza, we have something for everyone.";
     para3.textContent = "Delicious Delights is owned and operated by chef John Doe, who trained in some of the best kitchens in Europe and has a passion for creating unique and delicious dishes. Our culinary team consists of seasoned chefs, sous chefs, and line cooks, all dedicated to providing our customers with an unforgettable culinary experience.";
-    const elementList = [para, heading, para2, para3];
+    const elementList = [para, heading, para2, para3, footerHolder];
     for (let i = 0; i < elementList.length; i++) {
         aboutContentHolder.appendChild(elementList[i]);
     }

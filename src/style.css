@@ -195,7 +195,7 @@ nav ul li {
 }
 
 .about-us-content>* {
-    margin-block: 10px;
+    margin-block: 15px;
 }
 
 .about-sub-title {
@@ -205,6 +205,43 @@ nav ul li {
 }
 
 .about-sub-header {
+    font-size: 2.5rem;
+    color: #413f3f;
+}
+
+.about-us-text {
+    color: #2c2b2b;
+}
+
+.footer-holder {
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid yellow;
+    padding-block: 15px;
+    padding-inline: 5px;
+    gap: 50px;
+}
+
+.learn-more {
+    font-size: 1.08rem;
+    font-weight: 800;
+    letter-spacing: .01rem;
+    color: #fff;
+    background: #FFA000;
+    padding-block: 15px;
+    padding-inline: 30px;
+    border-radius: 30px;
+}
+
+.learn-more-sec {
+    display: flex;
+    gap: 20px;
+    font-size: 1.08rem;
+    align-items: center;
+}
+
+.fa-circle-play {
+    color: #838d8a;
     font-size: 2rem;
 }
 
