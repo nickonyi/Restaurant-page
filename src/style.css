@@ -173,20 +173,33 @@ nav ul li {
 /*--------------About Time section---------------------*/
 
 .about-us-section {
-    background: lightcoral;
     display: flex;
-    padding-inline: 100px;
 }
 
 .image-holder {
-    min-width: 300px;
-    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+
+.about-us-image {
+    width: 100px;
     height: auto;
 }
 
 .about-us-section>div {
-    border: 3px solid yellowgreen;
     flex: 1;
+}
+
+.image-mini-container {
+    background-color: #FFA000;
+    ;
+    width: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.about-us-image {
+    width: 100px;
 }
 
 .about-us-content {
@@ -216,7 +229,6 @@ nav ul li {
 .footer-holder {
     margin-top: 20px;
     display: flex;
-    border: 1px solid yellow;
     padding-block: 15px;
     padding-inline: 5px;
     gap: 50px;
@@ -238,11 +250,27 @@ nav ul li {
     gap: 20px;
     font-size: 1.08rem;
     align-items: center;
+    border-radius: 50%;
+}
+
+.learn-more-sec>i {
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+.learn-more-sec>i:hover {
+    background: transparent;
+    box-shadow: 0 0 1px 15px rgba(107, 103, 103, 0.5);
 }
 
 .fa-circle-play {
+    color: #525554;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.learn-more-content {
     color: #838d8a;
-    font-size: 2rem;
 }
 
 

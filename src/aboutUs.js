@@ -5,10 +5,13 @@ function aboutUs() {
     aboutUsSec.classList.add('about-us-section');
 
     const imageContainer = document.createElement('div');
+    const imageMiniContainer = document.createElement('div');
+    imageMiniContainer.classList.add('image-mini-container');
     imageContainer.classList.add('about-us-image');
     const imageHolder = new Image();
     imageHolder.classList.add('image-holder');
     imageHolder.src = aboutImage;
+
 
     const aboutContentHolder = document.createElement('div');
     aboutContentHolder.classList.add('about-us-content')
@@ -20,6 +23,7 @@ function aboutUs() {
     para2.classList.add('about-sub-para-2', 'about-us-text');
     const para3 = document.createElement('p');
     para3.classList.add('about-sub-para-3', 'about-us-text');
+
 
     const footerHolder = document.createElement('div');
     footerHolder.classList.add('footer-holder');
@@ -33,6 +37,11 @@ function aboutUs() {
     const learnMoreCont = document.createElement('div');
     learnMoreCont.classList.add('learn-more-content');
     learnMoreCont.textContent = "Watch video";
+    icon.addEventListener('click', () => {
+        const url = "https://www.youtube.com/watch?app=desktop&v=kRCH8kD1GD0&ab_channel=ManualModeProductions";
+        window.open(url, "_blank");
+    });
+
 
     learnMoreSec.appendChild(icon);
     learnMoreSec.appendChild(learnMoreCont);
@@ -50,8 +59,8 @@ function aboutUs() {
         aboutContentHolder.appendChild(elementList[i]);
     }
 
-
-    imageContainer.appendChild(imageHolder);
+    imageMiniContainer.appendChild(imageHolder);
+    imageContainer.appendChild(imageMiniContainer);
     aboutUsSec.appendChild(imageContainer);
     aboutUsSec.appendChild(aboutContentHolder);
     document.body.appendChild(aboutUsSec);
