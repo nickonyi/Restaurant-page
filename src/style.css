@@ -274,6 +274,61 @@ nav ul li {
 }
 
 
+/*---------------How it works section--------------------*/
+
+.how-it-works {
+    background: #6adbb9;
+}
+
+.how-it-works-header-container {
+    border: 3px solid #fff;
+    padding-block: 30px;
+    padding-inline: 50px;
+    text-align: center;
+}
+
+.how-it-works-header-container>* {
+    border: 2px solid yellowgreen;
+    margin-block: 15px;
+}
+
+.how-it-works-paragraph {
+    padding-inline: 350px;
+}
+
+.how-it-works-header {
+    color: #FFA000;
+    font-size: 1rem;
+}
+
+.how-it-works-sub-header {
+    color: #525554;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.how-it-works-paragraph {
+    color: #525554;
+}
+
+.how-it-works-content-header {
+    height: 300px;
+    background: #c71212;
+}
+
+.how-it-works-content-header {
+    border: 3px solid #b8670c;
+}
+
+.how-it-works-content-header>div {
+    border: 3px solid #dd23b5;
+}
+
+.how-it-works-content-header-child1>* {
+    border: 2px solid #660ea1;
+}
+
+
 /*-----------------------------------*/
 
 
