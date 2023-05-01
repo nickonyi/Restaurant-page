@@ -20,15 +20,15 @@ function howItworks() {
     const howItWorksContentHeader = document.createElement('div');
     howItWorksContentHeader.setAttribute('class', 'how-it-works-content-header');
     const howItWorksContentHeaderChild1 = document.createElement('div');
-    howItWorksContentHeaderChild1.setAttribute('class', 'how-it-works-content-header-child1');
+    howItWorksContentHeaderChild1.setAttribute('class', 'how-it-works-content-header-child1 child-box');
     const howItWorksContentHeaderChild2 = document.createElement('div');
-    howItWorksContentHeaderChild2.setAttribute('class', 'how-it-works-content-header-child2');
+    howItWorksContentHeaderChild2.setAttribute('class', 'how-it-works-content-header-child2 child-box');
     const howItWorksContentHeaderChild3 = document.createElement('div');
-    howItWorksContentHeaderChild3.setAttribute('class', 'how-it-works-content-header-child3');
+    howItWorksContentHeaderChild3.setAttribute('class', 'how-it-works-content-header-child3 child-box');
 
     //how it works content header child 1
     const howItWorksContentHeaderChild1Icon = document.createElement('i');
-    howItWorksContentHeaderChild1Icon.classList.add("fa-solid", "fa-pizza-slice");
+    howItWorksContentHeaderChild1Icon.classList.add("fa-solid", "fa-pizza-slice", "fa-box-icon");
     const howItWorksContentHeaderChild1Header = document.createElement('h3');
     howItWorksContentHeaderChild1Header.setAttribute('class', 'how-it-works-content-header-child1-header');
     howItWorksContentHeaderChild1Header.textContent = 'Pick Meals';
@@ -38,7 +38,7 @@ function howItworks() {
 
     //how it works content header child 2
     const howItWorksContentHeaderChild2Icon = document.createElement('i');
-    howItWorksContentHeaderChild2Icon.classList.add("fa-solid", "fa-hand-pointer");
+    howItWorksContentHeaderChild2Icon.classList.add("fa-solid", "fa-hand-pointer", "fa-box-icon");
     const howItWorksContentHeaderChild2Header = document.createElement('h3');
     howItWorksContentHeaderChild2Header.setAttribute('class', 'how-it-works-content-header-child2-header');
     howItWorksContentHeaderChild2Header.textContent = 'Choose How Often';
@@ -47,7 +47,7 @@ function howItworks() {
     howItWorksContentHeaderChild2Paragraph.textContent = 'Our team of chefs do the prep work no more chopping, measuring, or sink full of dishes. Enjoy a new menu each week!';
     //how it works content header child 3
     const howItWorksContentHeaderChild3Icon = document.createElement('i');
-    howItWorksContentHeaderChild3Icon.classList.add("fa-solid", "fa-truck");
+    howItWorksContentHeaderChild3Icon.classList.add("fa-solid", "fa-truck-fast", "fa-box-icon");
     const howItWorksContentHeaderChild3Header = document.createElement('h3');
     howItWorksContentHeaderChild3Header.setAttribute('class', 'how-it-works-content-header-child3-header');
     howItWorksContentHeaderChild3Header.textContent = 'Fast Deliveries';

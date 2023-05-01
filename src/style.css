@@ -276,10 +276,6 @@ nav ul li {
 
 /*---------------How it works section--------------------*/
 
-.how-it-works {
-    background: #6adbb9;
-}
-
 .how-it-works-header-container {
     border: 3px solid #fff;
     padding-block: 30px;
@@ -288,7 +284,6 @@ nav ul li {
 }
 
 .how-it-works-header-container>* {
-    border: 2px solid yellowgreen;
     margin-block: 15px;
 }
 
@@ -312,20 +307,29 @@ nav ul li {
 }
 
 .how-it-works-content-header {
-    height: 300px;
-    background: #c71212;
+    padding-block: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
 }
 
-.how-it-works-content-header {
-    border: 3px solid #b8670c;
+.child-box {
+    padding-block: 70px;
+    padding-inline: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.how-it-works-content-header>div {
-    border: 3px solid #dd23b5;
+.child-box>* {
+    margin-block: 10px;
 }
 
-.how-it-works-content-header-child1>* {
-    border: 2px solid #660ea1;
+.fa-box-icon {
+    font-size: 3.5rem;
+    color: #FFA000;
 }
 
 
