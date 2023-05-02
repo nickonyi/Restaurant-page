@@ -2,6 +2,7 @@ import { navBar, pageHeaderContent } from "./page-header";
 import { timeSection } from "./time-section";
 import { aboutUs } from "./aboutUs";
 import { howItworks } from "./howItWorks";
+import { menu } from "./menu";
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -12,3 +13,4 @@ pageHeaderContent();
 timeSection();
 aboutUs();
 howItworks();
+menu();
