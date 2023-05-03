@@ -2,8 +2,8 @@ import contentImg1 from './pancakes-1.jpg';
 import contentImg2 from './french-toast.jpg';
 import contentImg3 from './steak-1.jpg';
 import contentImg4 from './bbq-ribs-1.jpg';
-import contentImg5 from './salads-1.jpg';
-import contentImg6 from './egg-muffin-1.jpg';
+import contentImg5 from './salad.jpg';
+import contentImg6 from './egg-muffin.png';
 
 function menu() {
     const menu = document.createElement('section');
@@ -55,6 +55,8 @@ function menu() {
     const menuContent1Price = document.createElement('p');
     menuContent1Price.classList.add('menu-content-price');
     menuContent1Price.textContent = '$10.00';
+
+
     //serve div
     const serveDiv1 = document.createElement('div');
     serveDiv1.classList.add('serve-div');
@@ -62,6 +64,15 @@ function menu() {
     const serveDivText1 = document.createElement('div');
     serveDivText1.classList.add('serve-div-text');
     serveDivText1.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent1FooterDivContainer = document.createElement('div');
+    menuContent1FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent1FooterDiv1 = document.createElement('div');
+    menuContent1FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent1FooterDiv2 = document.createElement('div');
+    menuContent1FooterDiv2.classList.add('menu-content-footer-div-2');
+    menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv1);
+    menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv2);
+
 
     //creating menucontent2 container elements
     const menuContent2Img = document.createElement('img');
@@ -168,6 +179,7 @@ function menu() {
     menuContent1HeaderContainer.appendChild(menuContent1Price);
     menuContent1HeaderContainer.appendChild(serveDiv1);
     menuContent1HeaderContainer.appendChild(serveDivText1);
+    menuContent1HeaderContainer.appendChild(menuContent1FooterDivContainer);
 
     //Appending menuContent1 elements to menuContent1
     menuContent1.appendChild(menuContent1Img);
