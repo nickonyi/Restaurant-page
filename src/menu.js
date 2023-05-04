@@ -70,6 +70,20 @@ function menu() {
     menuContent1FooterDiv1.classList.add('menu-content-footer-div-1');
     const menuContent1FooterDiv2 = document.createElement('div');
     menuContent1FooterDiv2.classList.add('menu-content-footer-div-2');
+
+    const ratingContainer = document.createElement('div');
+    ratingContainer.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent1FooterDivContainer.appendChild(ratingContainer);
     menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv1);
     menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv2);
 
@@ -79,7 +93,7 @@ function menu() {
     menuContent2Img.classList.add('menu-content-img', 'img-box');
     menuContent2Img.src = contentImg2;
     const menuContent2HeaderContainer = document.createElement('div');
-    menuContent1HeaderContainer.classList.add('menu-content-header-container');
+    menuContent2HeaderContainer.classList.add('menu-content-header-container');
     const menuContent2Header = document.createElement('h2');
     menuContent2Header.classList.add('menu-content-header');
     menuContent2Header.textContent = 'French Toast';
@@ -91,8 +105,30 @@ function menu() {
     serveDiv2.classList.add('serve-div');
     serveDiv2.textContent = "Served with french fries + drinks";
     const serveDivText2 = document.createElement('div');
+    serveDivText2.classList.add('serve-div-text');
     serveDivText2.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent2FooterDivContainer = document.createElement('div');
+    menuContent2FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent2FooterDiv1 = document.createElement('div');
+    menuContent2FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent2FooterDiv2 = document.createElement('div');
+    menuContent2FooterDiv2.classList.add('menu-content-footer-div-2');
 
+    const ratingContainer2 = document.createElement('div');
+    ratingContainer2.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer2.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent2FooterDivContainer.appendChild(ratingContainer2);
+    menuContent2FooterDivContainer.appendChild(menuContent2FooterDiv1);
+    menuContent2FooterDivContainer.appendChild(menuContent2FooterDiv2);
 
     //creating menucontent3 container elements
     const menuContent3Img = document.createElement('img');
@@ -113,6 +149,28 @@ function menu() {
     const serveDivText3 = document.createElement('div');
     serveDivText3.classList.add('serve-div-text');
     serveDivText3.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent3FooterDivContainer = document.createElement('div');
+    menuContent3FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent3FooterDiv1 = document.createElement('div');
+    menuContent3FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent3FooterDiv2 = document.createElement('div');
+    menuContent3FooterDiv2.classList.add('menu-content-footer-div-2');
+
+    const ratingContainer3 = document.createElement('div');
+    ratingContainer3.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer3.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent3FooterDivContainer.appendChild(ratingContainer3);
+    menuContent3FooterDivContainer.appendChild(menuContent3FooterDiv1);
+    menuContent3FooterDivContainer.appendChild(menuContent3FooterDiv2);
 
     //creating menucontent1 container elements
     const menuContent4Img = document.createElement('img');
@@ -133,6 +191,28 @@ function menu() {
     const serveDivText4 = document.createElement('div');
     serveDivText4.classList.add('serve-div-text');
     serveDivText4.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent4FooterDivContainer = document.createElement('div');
+    menuContent4FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent4FooterDiv1 = document.createElement('div');
+    menuContent4FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent4FooterDiv2 = document.createElement('div');
+    menuContent4FooterDiv2.classList.add('menu-content-footer-div-2');
+
+    const ratingContainer4 = document.createElement('div');
+    ratingContainer4.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer4.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent4FooterDivContainer.appendChild(ratingContainer4);
+    menuContent4FooterDivContainer.appendChild(menuContent4FooterDiv1);
+    menuContent4FooterDivContainer.appendChild(menuContent4FooterDiv2);
 
     //creating menucontent5 container elements
     const menuContent5Img = document.createElement('img');
@@ -153,6 +233,28 @@ function menu() {
     const serveDivText5 = document.createElement('div');
     serveDivText5.classList.add('serve-div-text');
     serveDivText5.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent5FooterDivContainer = document.createElement('div');
+    menuContent5FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent5FooterDiv1 = document.createElement('div');
+    menuContent5FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent5FooterDiv2 = document.createElement('div');
+    menuContent5FooterDiv2.classList.add('menu-content-footer-div-2');
+
+    const ratingContainer5 = document.createElement('div');
+    ratingContainer5.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer5.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent5FooterDivContainer.appendChild(ratingContainer5);
+    menuContent5FooterDivContainer.appendChild(menuContent5FooterDiv1);
+    menuContent5FooterDivContainer.appendChild(menuContent5FooterDiv2);
 
     //creating menucontent6 container elements
     const menuContent6Img = document.createElement('img');
@@ -173,6 +275,28 @@ function menu() {
     const serveDivText6 = document.createElement('div');
     serveDivText6.classList.add('serve-div-text');
     serveDivText6.textContent = "Choice of: Coke,Fanta,Sprite, Upgrade to large fries,And whopper party,And tender crisp party and more...";
+    const menuContent6FooterDivContainer = document.createElement('div');
+    menuContent6FooterDivContainer.classList.add('menu-content-footer-div-container');
+    const menuContent6FooterDiv1 = document.createElement('div');
+    menuContent6FooterDiv1.classList.add('menu-content-footer-div-1');
+    const menuContent6FooterDiv2 = document.createElement('div');
+    menuContent6FooterDiv2.classList.add('menu-content-footer-div-2');
+
+    const ratingContainer6 = document.createElement('div');
+    ratingContainer6.classList.add('rating');
+
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.classList.add('star');
+        star.setAttribute('data-rating', i);
+        star.textContent = '★';
+        ratingContainer6.appendChild(star);
+    }
+
+    // Assuming you want to add the rating container to the body element
+    menuContent6FooterDivContainer.appendChild(ratingContainer6);
+    menuContent6FooterDivContainer.appendChild(menuContent6FooterDiv1);
+    menuContent6FooterDivContainer.appendChild(menuContent6FooterDiv2);
 
     //appending menuContent1Header elements to menuContent1HeaderContainer
     menuContent1HeaderContainer.appendChild(menuContent1Header);
@@ -190,6 +314,7 @@ function menu() {
     menuContent2HeaderContainer.appendChild(menuContent2Price);
     menuContent2HeaderContainer.appendChild(serveDiv2);
     menuContent2HeaderContainer.appendChild(serveDivText2);
+    menuContent2HeaderContainer.appendChild(menuContent2FooterDivContainer);
 
     //Appending menuContent2 elements to menuContent2
     menuContent2.appendChild(menuContent2Img);
@@ -200,6 +325,7 @@ function menu() {
     menuContent3HeaderContainer.appendChild(menuContent3Price);
     menuContent3HeaderContainer.appendChild(serveDiv3);
     menuContent3HeaderContainer.appendChild(serveDivText3);
+    menuContent3HeaderContainer.appendChild(menuContent3FooterDivContainer);
 
     //Appending menuContent3 elements to menuContent3
     menuContent3.appendChild(menuContent3Img);
@@ -210,6 +336,7 @@ function menu() {
     menuContent4HeaderContainer.appendChild(menuContent4Price);
     menuContent4HeaderContainer.appendChild(serveDiv4);
     menuContent4HeaderContainer.appendChild(serveDivText4);
+    menuContent4HeaderContainer.appendChild(menuContent4FooterDivContainer);
 
     //Appending menuContent4 elements to menuContent4
     menuContent4.appendChild(menuContent4Img);
@@ -220,6 +347,7 @@ function menu() {
     menuContent5HeaderContainer.appendChild(menuContent5Price);
     menuContent5HeaderContainer.appendChild(serveDiv5);
     menuContent5HeaderContainer.appendChild(serveDivText5);
+    menuContent5HeaderContainer.appendChild(menuContent5FooterDivContainer);
 
     //Appending menuContent5 elements to menuContent5
     menuContent5.appendChild(menuContent5Img);
@@ -230,6 +358,7 @@ function menu() {
     menuContent6HeaderContainer.appendChild(menuContent6Price);
     menuContent6HeaderContainer.appendChild(serveDiv6);
     menuContent6HeaderContainer.appendChild(serveDivText6);
+    menuContent6HeaderContainer.appendChild(menuContent6FooterDivContainer);
 
     //Appending menuContent1 elements to menuContent1
     menuContent6.appendChild(menuContent6Img);
@@ -240,7 +369,6 @@ function menu() {
     menuHeaderContainer.appendChild(menuHeaderSubTitle);
     menuHeaderContainer.appendChild(menuHeaderText);
 
-    //appending menu content container to the menu content container
 
     //adding menu children to the menu section
     menu.appendChild(menuHeaderContainer);
@@ -249,4 +377,47 @@ function menu() {
     document.body.appendChild(menu);
 }
 
-export { menu }
+function ratingSystem() {
+    function initializeStars(container) {
+        let stars = container.querySelectorAll('.star');
+        let rating = 0;
+
+        stars.forEach((star) => {
+            star.addEventListener('click', (e) => {
+                rating = parseInt(e.target.getAttribute('data-rating'));
+                setRating(rating, stars);
+            });
+
+            star.addEventListener('mouseover', (e) => {
+                resetStars(stars);
+                rating = parseInt(e.target.getAttribute('data-rating'));
+                setRating(rating, stars);
+            });
+
+            star.addEventListener('mouseout', () => {
+                resetStars(stars);
+                setRating(rating, stars);
+            });
+        });
+
+        function setRating(rating, stars) {
+            stars.forEach((star) => {
+                if (parseInt(star.getAttribute('data-rating')) <= rating) {
+                    star.classList.add('active');
+                }
+            });
+        }
+
+        function resetStars(stars) {
+            stars.forEach((star) => {
+                star.classList.remove('active');
+            });
+        }
+    }
+
+    const ratingContainers = document.querySelectorAll('.rating');
+    ratingContainers.forEach(initializeStars);
+}
+
+
+export { menu, ratingSystem }

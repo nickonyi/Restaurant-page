@@ -3,6 +3,7 @@ import { timeSection } from "./time-section";
 import { aboutUs } from "./aboutUs";
 import { howItworks } from "./howItWorks";
 import { menu } from "./menu";
+import { ratingSystem } from "./menu";
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -14,3 +15,4 @@ timeSection();
 aboutUs();
 howItworks();
 menu();
+ratingSystem();
