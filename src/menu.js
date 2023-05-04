@@ -68,8 +68,6 @@ function menu() {
     menuContent1FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent1FooterDiv1 = document.createElement('div');
     menuContent1FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent1FooterDiv2 = document.createElement('div');
-    menuContent1FooterDiv2.classList.add('menu-content-footer-div-2');
 
     const ratingContainer = document.createElement('div');
     ratingContainer.classList.add('rating');
@@ -85,7 +83,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent1FooterDivContainer.appendChild(ratingContainer);
     menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv1);
-    menuContent1FooterDivContainer.appendChild(menuContent1FooterDiv2);
+
 
 
     //creating menucontent2 container elements
@@ -111,8 +109,6 @@ function menu() {
     menuContent2FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent2FooterDiv1 = document.createElement('div');
     menuContent2FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent2FooterDiv2 = document.createElement('div');
-    menuContent2FooterDiv2.classList.add('menu-content-footer-div-2');
 
     const ratingContainer2 = document.createElement('div');
     ratingContainer2.classList.add('rating');
@@ -128,7 +124,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent2FooterDivContainer.appendChild(ratingContainer2);
     menuContent2FooterDivContainer.appendChild(menuContent2FooterDiv1);
-    menuContent2FooterDivContainer.appendChild(menuContent2FooterDiv2);
+
 
     //creating menucontent3 container elements
     const menuContent3Img = document.createElement('img');
@@ -153,8 +149,7 @@ function menu() {
     menuContent3FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent3FooterDiv1 = document.createElement('div');
     menuContent3FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent3FooterDiv2 = document.createElement('div');
-    menuContent3FooterDiv2.classList.add('menu-content-footer-div-2');
+
 
     const ratingContainer3 = document.createElement('div');
     ratingContainer3.classList.add('rating');
@@ -170,7 +165,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent3FooterDivContainer.appendChild(ratingContainer3);
     menuContent3FooterDivContainer.appendChild(menuContent3FooterDiv1);
-    menuContent3FooterDivContainer.appendChild(menuContent3FooterDiv2);
+
 
     //creating menucontent1 container elements
     const menuContent4Img = document.createElement('img');
@@ -195,8 +190,7 @@ function menu() {
     menuContent4FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent4FooterDiv1 = document.createElement('div');
     menuContent4FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent4FooterDiv2 = document.createElement('div');
-    menuContent4FooterDiv2.classList.add('menu-content-footer-div-2');
+
 
     const ratingContainer4 = document.createElement('div');
     ratingContainer4.classList.add('rating');
@@ -212,7 +206,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent4FooterDivContainer.appendChild(ratingContainer4);
     menuContent4FooterDivContainer.appendChild(menuContent4FooterDiv1);
-    menuContent4FooterDivContainer.appendChild(menuContent4FooterDiv2);
+
 
     //creating menucontent5 container elements
     const menuContent5Img = document.createElement('img');
@@ -237,8 +231,7 @@ function menu() {
     menuContent5FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent5FooterDiv1 = document.createElement('div');
     menuContent5FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent5FooterDiv2 = document.createElement('div');
-    menuContent5FooterDiv2.classList.add('menu-content-footer-div-2');
+
 
     const ratingContainer5 = document.createElement('div');
     ratingContainer5.classList.add('rating');
@@ -254,7 +247,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent5FooterDivContainer.appendChild(ratingContainer5);
     menuContent5FooterDivContainer.appendChild(menuContent5FooterDiv1);
-    menuContent5FooterDivContainer.appendChild(menuContent5FooterDiv2);
+
 
     //creating menucontent6 container elements
     const menuContent6Img = document.createElement('img');
@@ -279,8 +272,7 @@ function menu() {
     menuContent6FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent6FooterDiv1 = document.createElement('div');
     menuContent6FooterDiv1.classList.add('menu-content-footer-div-1');
-    const menuContent6FooterDiv2 = document.createElement('div');
-    menuContent6FooterDiv2.classList.add('menu-content-footer-div-2');
+
 
     const ratingContainer6 = document.createElement('div');
     ratingContainer6.classList.add('rating');
@@ -296,7 +288,7 @@ function menu() {
     // Assuming you want to add the rating container to the body element
     menuContent6FooterDivContainer.appendChild(ratingContainer6);
     menuContent6FooterDivContainer.appendChild(menuContent6FooterDiv1);
-    menuContent6FooterDivContainer.appendChild(menuContent6FooterDiv2);
+
 
     //appending menuContent1Header elements to menuContent1HeaderContainer
     menuContent1HeaderContainer.appendChild(menuContent1Header);

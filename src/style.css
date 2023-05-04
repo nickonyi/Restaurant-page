@@ -393,17 +393,20 @@ nav ul li {
 }
 
 .menu-content-footer-div-container {
-    height: 100px;
     border: 1px solid #eb351d;
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
 }
 
 .menu-content-footer-div-container>div {
     border: 1px solid #1d99eb;
 }
 
-.menu-content-footer-div-container>div:last-child {
-    border: 1px solid #ebd61d;
-    height: 50px;
+.menu-content-footer-div-1 {
+    flex: 1;
+    border-top-left-radius: 30px;
+    background: #FFA000;
 }
 
 .img-box {
@@ -416,6 +419,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    flex: 2;
 }
 
 .star {
