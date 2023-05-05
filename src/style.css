@@ -335,18 +335,16 @@ nav ul li {
 
 /*--------------The menu section---------------------*/
 
-.menu {
-    background: #128861;
-}
-
 .menu-header {
-    border: 3px solid #2b2bbd;
     text-align: center;
     margin-inline: 300px;
 }
 
+.menu-content {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
 .menu-header>* {
-    border: 2px solid #b93b3b;
     padding-inline: 100px;
     margin-block: 5px;
 }
@@ -368,39 +366,22 @@ nav ul li {
 }
 
 .menu-content-container {
-    border: 2px solid #e26c6c;
     display: flex;
     padding-inline: 100px;
     padding-block: 50px;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
 }
 
 .menu-content-container>div {
     flex: 1 1 290px;
 }
 
-.menu-content-container>div {
-    border: 1px solid #abe26c;
-}
-
-.menu-content>div {
-    border: #da0dda 2px solid;
-}
-
-.menu-content-header-container>* {
-    border: 1px solid #4c3fc0;
-}
-
 .menu-content-footer-div-container {
-    border: 1px solid #eb351d;
     display: flex;
     margin-top: 20px;
     height: 70px;
-}
-
-.menu-content-footer-div-container>div {
-    border: 1px solid #1d99eb;
 }
 
 .menu-content-footer-div-1 {
@@ -456,10 +437,6 @@ nav ul li {
     justify-content: space-between;
     padding-inline: 10px;
     padding-block-start: 10px;
-}
-
-.menu-content-small-header-container>* {
-    border: 1px solid saddlebrown;
 }
 
 .menu-content-header,
