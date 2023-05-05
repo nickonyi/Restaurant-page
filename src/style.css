@@ -396,7 +396,7 @@ nav ul li {
     border: 1px solid #eb351d;
     display: flex;
     margin-top: 20px;
-    height: 50px;
+    height: 70px;
 }
 
 .menu-content-footer-div-container>div {
@@ -407,6 +407,9 @@ nav ul li {
     flex: 1;
     border-top-left-radius: 30px;
     background: #FFA000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-box {
@@ -431,6 +434,56 @@ nav ul li {
 .star:hover,
 .star.active {
     color: #f90;
+}
+
+.fa-plus {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.menu-content-header {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-content-price {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.menu-content-small-header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-block-start: 10px;
+}
+
+.menu-content-small-header-container>* {
+    border: 1px solid saddlebrown;
+}
+
+.menu-content-header,
+.menu-content-price {
+    font-size: 2rem;
+}
+
+.serve-div {
+    padding-left: 10px;
+}
+
+.serve-div-text {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.img-box {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px
+}
+
+.menu-content {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 

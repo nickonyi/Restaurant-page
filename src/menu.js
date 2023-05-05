@@ -47,6 +47,8 @@ function menu() {
     const menuContent1Img = document.createElement('img');
     menuContent1Img.classList.add('menu-content-img', 'img-box');
     menuContent1Img.src = contentImg1;
+    const menuContent1SmallHeaderContainer = document.createElement('div');
+    menuContent1SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent1HeaderContainer = document.createElement('div');
     menuContent1HeaderContainer.classList.add('menu-content-header-container');
     const menuContent1Header = document.createElement('h2');
@@ -68,6 +70,10 @@ function menu() {
     menuContent1FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent1FooterDiv1 = document.createElement('div');
     menuContent1FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon1 = document.createElement('i');
+    icon1.classList.add('fas', 'fa-plus');
+    menuContent1FooterDiv1.appendChild(icon1);
+
 
     const ratingContainer = document.createElement('div');
     ratingContainer.classList.add('rating');
@@ -90,6 +96,8 @@ function menu() {
     const menuContent2Img = document.createElement('img');
     menuContent2Img.classList.add('menu-content-img', 'img-box');
     menuContent2Img.src = contentImg2;
+    const menuContent2SmallHeaderContainer = document.createElement('div');
+    menuContent2SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent2HeaderContainer = document.createElement('div');
     menuContent2HeaderContainer.classList.add('menu-content-header-container');
     const menuContent2Header = document.createElement('h2');
@@ -109,6 +117,10 @@ function menu() {
     menuContent2FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent2FooterDiv1 = document.createElement('div');
     menuContent2FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon2 = document.createElement('i');
+    icon2.classList.add('fas', 'fa-plus');
+    menuContent2FooterDiv1.appendChild(icon2);
+
 
     const ratingContainer2 = document.createElement('div');
     ratingContainer2.classList.add('rating');
@@ -130,6 +142,8 @@ function menu() {
     const menuContent3Img = document.createElement('img');
     menuContent3Img.classList.add('menu-content-img', 'img-box');
     menuContent3Img.src = contentImg3;
+    const menuContent3SmallHeaderContainer = document.createElement('div');
+    menuContent3SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent3HeaderContainer = document.createElement('div');
     menuContent3HeaderContainer.classList.add('menu-content-header-container');
     const menuContent3Header = document.createElement('h2');
@@ -149,6 +163,9 @@ function menu() {
     menuContent3FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent3FooterDiv1 = document.createElement('div');
     menuContent3FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon3 = document.createElement('i');
+    icon3.classList.add('fas', 'fa-plus');
+    menuContent3FooterDiv1.appendChild(icon3);
 
 
     const ratingContainer3 = document.createElement('div');
@@ -171,6 +188,8 @@ function menu() {
     const menuContent4Img = document.createElement('img');
     menuContent4Img.classList.add('menu-content-img', 'img-box');
     menuContent4Img.src = contentImg4;
+    const menuContent4SmallHeaderContainer = document.createElement('div');
+    menuContent4SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent4HeaderContainer = document.createElement('div');
     menuContent4HeaderContainer.classList.add('menu-content-header-container');
     const menuContent4Header = document.createElement('h2');
@@ -179,6 +198,7 @@ function menu() {
     const menuContent4Price = document.createElement('p');
     menuContent4Price.classList.add('menu-content-price');
     menuContent4Price.textContent = '$25.00';
+
     //serve div
     const serveDiv4 = document.createElement('div');
     serveDiv4.classList.add('serve-div');
@@ -190,6 +210,10 @@ function menu() {
     menuContent4FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent4FooterDiv1 = document.createElement('div');
     menuContent4FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon4 = document.createElement('i');
+    icon4.classList.add('fas', 'fa-plus');
+    menuContent4FooterDiv1.appendChild(icon4);
+
 
 
     const ratingContainer4 = document.createElement('div');
@@ -212,6 +236,8 @@ function menu() {
     const menuContent5Img = document.createElement('img');
     menuContent5Img.classList.add('menu-content-img', 'img-box');
     menuContent5Img.src = contentImg5;
+    const menuContent5SmallHeaderContainer = document.createElement('div');
+    menuContent5SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent5HeaderContainer = document.createElement('div');
     menuContent5HeaderContainer.classList.add('menu-content-header-container');
     const menuContent5Header = document.createElement('h2');
@@ -231,6 +257,9 @@ function menu() {
     menuContent5FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent5FooterDiv1 = document.createElement('div');
     menuContent5FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon5 = document.createElement('i');
+    icon5.classList.add('fas', 'fa-plus');
+    menuContent5FooterDiv1.appendChild(icon5);
 
 
     const ratingContainer5 = document.createElement('div');
@@ -253,6 +282,8 @@ function menu() {
     const menuContent6Img = document.createElement('img');
     menuContent6Img.classList.add('menu-content-img', 'img-box');
     menuContent6Img.src = contentImg6;
+    const menuContent6SmallHeaderContainer = document.createElement('div');
+    menuContent6SmallHeaderContainer.classList.add('menu-content-small-header-container');
     const menuContent6HeaderContainer = document.createElement('div');
     menuContent6HeaderContainer.classList.add('menu-content-header-container');
     const menuContent6Header = document.createElement('h2');
@@ -272,6 +303,9 @@ function menu() {
     menuContent6FooterDivContainer.classList.add('menu-content-footer-div-container');
     const menuContent6FooterDiv1 = document.createElement('div');
     menuContent6FooterDiv1.classList.add('menu-content-footer-div-1');
+    const icon6 = document.createElement('i');
+    icon6.classList.add('fas', 'fa-plus');
+    menuContent6FooterDiv1.appendChild(icon6);
 
 
     const ratingContainer6 = document.createElement('div');
@@ -291,8 +325,9 @@ function menu() {
 
 
     //appending menuContent1Header elements to menuContent1HeaderContainer
-    menuContent1HeaderContainer.appendChild(menuContent1Header);
-    menuContent1HeaderContainer.appendChild(menuContent1Price);
+    menuContent1SmallHeaderContainer.appendChild(menuContent1Header);
+    menuContent1SmallHeaderContainer.appendChild(menuContent1Price);
+    menuContent1HeaderContainer.appendChild(menuContent1SmallHeaderContainer);
     menuContent1HeaderContainer.appendChild(serveDiv1);
     menuContent1HeaderContainer.appendChild(serveDivText1);
     menuContent1HeaderContainer.appendChild(menuContent1FooterDivContainer);
@@ -302,8 +337,9 @@ function menu() {
     menuContent1.appendChild(menuContent1HeaderContainer);
 
     //appending menuContent2Header elements to menuContent1HeaderContainer
-    menuContent2HeaderContainer.appendChild(menuContent2Header);
-    menuContent2HeaderContainer.appendChild(menuContent2Price);
+    menuContent2SmallHeaderContainer.appendChild(menuContent2Header);
+    menuContent2SmallHeaderContainer.appendChild(menuContent2Price);
+    menuContent2HeaderContainer.appendChild(menuContent2SmallHeaderContainer);
     menuContent2HeaderContainer.appendChild(serveDiv2);
     menuContent2HeaderContainer.appendChild(serveDivText2);
     menuContent2HeaderContainer.appendChild(menuContent2FooterDivContainer);
@@ -313,8 +349,9 @@ function menu() {
     menuContent2.appendChild(menuContent2HeaderContainer);
 
     //appending menuContent3Header elements to menuContent1HeaderContainer
-    menuContent3HeaderContainer.appendChild(menuContent3Header);
-    menuContent3HeaderContainer.appendChild(menuContent3Price);
+    menuContent3SmallHeaderContainer.appendChild(menuContent3Header);
+    menuContent3SmallHeaderContainer.appendChild(menuContent3Price);
+    menuContent3HeaderContainer.appendChild(menuContent3SmallHeaderContainer);
     menuContent3HeaderContainer.appendChild(serveDiv3);
     menuContent3HeaderContainer.appendChild(serveDivText3);
     menuContent3HeaderContainer.appendChild(menuContent3FooterDivContainer);
@@ -324,8 +361,9 @@ function menu() {
     menuContent3.appendChild(menuContent3HeaderContainer);
 
     //appending menuContent4Header elements to menuContent1HeaderContainer
-    menuContent4HeaderContainer.appendChild(menuContent4Header);
-    menuContent4HeaderContainer.appendChild(menuContent4Price);
+    menuContent4SmallHeaderContainer.appendChild(menuContent4Header);
+    menuContent4SmallHeaderContainer.appendChild(menuContent4Price);
+    menuContent4HeaderContainer.appendChild(menuContent4SmallHeaderContainer);
     menuContent4HeaderContainer.appendChild(serveDiv4);
     menuContent4HeaderContainer.appendChild(serveDivText4);
     menuContent4HeaderContainer.appendChild(menuContent4FooterDivContainer);
@@ -335,8 +373,9 @@ function menu() {
     menuContent4.appendChild(menuContent4HeaderContainer);
 
     //appending menuContent5Header elements to menuContent5HeaderContainer
-    menuContent5HeaderContainer.appendChild(menuContent5Header);
-    menuContent5HeaderContainer.appendChild(menuContent5Price);
+    menuContent5SmallHeaderContainer.appendChild(menuContent5Header);
+    menuContent5SmallHeaderContainer.appendChild(menuContent5Price);
+    menuContent5HeaderContainer.appendChild(menuContent5SmallHeaderContainer);
     menuContent5HeaderContainer.appendChild(serveDiv5);
     menuContent5HeaderContainer.appendChild(serveDivText5);
     menuContent5HeaderContainer.appendChild(menuContent5FooterDivContainer);
@@ -346,8 +385,9 @@ function menu() {
     menuContent5.appendChild(menuContent5HeaderContainer);
 
     //appending menuContent6Header elements to menuContent6HeaderContainer
-    menuContent6HeaderContainer.appendChild(menuContent6Header);
-    menuContent6HeaderContainer.appendChild(menuContent6Price);
+    menuContent6SmallHeaderContainer.appendChild(menuContent6Header);
+    menuContent6SmallHeaderContainer.appendChild(menuContent6Price);
+    menuContent6HeaderContainer.appendChild(menuContent6SmallHeaderContainer);;
     menuContent6HeaderContainer.appendChild(serveDiv6);
     menuContent6HeaderContainer.appendChild(serveDivText6);
     menuContent6HeaderContainer.appendChild(menuContent6FooterDivContainer);
@@ -376,20 +416,12 @@ function ratingSystem() {
 
         stars.forEach((star) => {
             star.addEventListener('click', (e) => {
-                rating = parseInt(e.target.getAttribute('data-rating'));
-                setRating(rating, stars);
-            });
-
-            star.addEventListener('mouseover', (e) => {
                 resetStars(stars);
                 rating = parseInt(e.target.getAttribute('data-rating'));
                 setRating(rating, stars);
             });
 
-            star.addEventListener('mouseout', () => {
-                resetStars(stars);
-                setRating(rating, stars);
-            });
+
         });
 
         function setRating(rating, stars) {
