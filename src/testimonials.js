@@ -31,7 +31,7 @@ function testimonials() {
 
     for (let i = 1; i <= 5; i++) {
         const star = document.createElement('span');
-        star.classList.add('star', 'active');
+        star.classList.add('star', 'active', 'star-edit');
         star.setAttribute('data-rating', i);
         star.textContent = '★';
         testimonialRateStars.appendChild(star);
