@@ -5,6 +5,7 @@ import { howItworks } from "./howItWorks";
 import { menu } from "./menu";
 import { ratingSystem } from "./menu";
 import { testimonials } from "./testimonials";
+import { footerSection } from "./footer-section";
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -18,3 +19,4 @@ howItworks();
 menu();
 ratingSystem();
 testimonials();
+footerSection();
