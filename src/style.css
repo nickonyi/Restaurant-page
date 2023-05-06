@@ -519,6 +519,43 @@ nav ul li {
 }
 
 
+/*-----------Footer sections------------------------*/
+
+.footer-section {
+    height: 400px;
+    background: #c7d40f;
+    padding-inline: 30px;
+    text-align: center;
+}
+
+.footer-section>div {
+    border: 3px solid salmon;
+}
+
+.input-text-area {
+    margin-block: 20px;
+    padding-block: 30px;
+    width: 750px;
+    margin-top: 60px;
+    padding-left: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    color: #c2baba;
+}
+
+.submit-button {
+    position: relative;
+    right: 140px;
+    padding-block: 23px;
+    padding-inline: 50px;
+    border-radius: 30px;
+    border: none;
+    background: #FFA000;
+    color: #fff;
+}
+
+
 /*-----------------------------------*/
 
 
