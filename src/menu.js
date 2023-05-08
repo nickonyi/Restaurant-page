@@ -8,6 +8,7 @@ import contentImg6 from './egg-muffin.png';
 function menu() {
     const menu = document.createElement('section');
     menu.classList.add('menu');
+    menu.setAttribute('id', 'menu');
 
     //creating menu header container
     const menuHeaderContainer = document.createElement('div');

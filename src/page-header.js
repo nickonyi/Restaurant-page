@@ -29,6 +29,10 @@ function navBar() {
 
     const navDivOne = document.createElement('li');
     const navDivTwo = document.createElement('li');
+    const navDivTwoLink = document.createElement('a');
+    navDivTwoLink.setAttribute('href', '#menu');
+    navDivTwoLink.textContent = "Menu";
+    navDivTwo.appendChild(navDivTwoLink);
     const navDivThree = document.createElement('li');
     const navDivFour = document.createElement('li');
     const navDivFive = document.createElement('li');
@@ -45,7 +49,6 @@ function navBar() {
     }
 
     navDivOne.textContent = "Home";
-    navDivTwo.textContent = "Menu";
     navDivThree.textContent = "About us";
     navDivFour.textContent = "Contact us";
     navBtn.textContent = "Booking Now";
@@ -109,5 +112,10 @@ function pageHeaderContent() {
 
 }
 
+function links() {
+
+    const section = document.getElementById('menu');
+    section.scroolIntoView({ behavior: "smooth" });
+}
 
 export { navBar, pageHeaderContent }
