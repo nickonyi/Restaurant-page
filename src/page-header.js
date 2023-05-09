@@ -30,11 +30,11 @@ function navBar() {
     const navDivOne = document.createElement('li');
     const navDivTwo = document.createElement('li');
     const navDivTwoLink = document.createElement('a');
+    navDivTwoLink.classList.add('a-link');
     navDivTwoLink.setAttribute('href', '#menu');
     navDivTwoLink.textContent = "Menu";
     navDivTwo.appendChild(navDivTwoLink);
     const navDivThree = document.createElement('li');
-    const navDivFour = document.createElement('li');
     const navDivFive = document.createElement('li');
     const navBtn = document.createElement('btn');
     const navDivContainer = document.createElement('ul');
@@ -42,7 +42,7 @@ function navBar() {
     navBtn.classList.add('nav-btn');
     navDivFive.appendChild(navBtn);
 
-    const navDivList = [navDivOne, navDivTwo, navDivThree, navDivFour, navDivFive];
+    const navDivList = [navDivOne, navDivTwo, navDivThree, navDivFive];
     for (let i = 0; i < navDivList.length; i++) {
         navDivContainer.appendChild(navDivList[i]);
 
@@ -50,7 +50,6 @@ function navBar() {
 
     navDivOne.textContent = "Home";
     navDivThree.textContent = "About us";
-    navDivFour.textContent = "Contact us";
     navBtn.textContent = "Booking Now";
 
     navBar.appendChild(checkbox);
@@ -114,8 +113,15 @@ function pageHeaderContent() {
 
 function links() {
 
-    const section = document.getElementById('menu');
-    section.scroolIntoView({ behavior: "smooth" });
+    const element = document.getElementById("menu");
+    const linktag = document.querySelector('.a-link');
+    linktag.addEventListener('click', () => {
+        console.log(element);
+        element.scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+
 }
 
-export { navBar, pageHeaderContent }
+export { navBar, pageHeaderContent, links }

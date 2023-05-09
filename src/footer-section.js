@@ -129,6 +129,10 @@ function footerSection() {
     footerContentHeader.appendChild(footerContentHeaderDivLinks4);
 
 
+    //const all rights reserved
+    const footerDivRights = document.createElement('div');
+    footerDivRights.classList.add('div-rights');
+    footerDivRights.textContent = "2023 @ All rights reserved by Nick_Onyi";
     //appending footer content header text container children to footer content header text area    
     footerContentHeaderTextArea.appendChild(footerContentHeaderTextContainer1);
     footerContentHeaderTextArea.appendChild(footerContentContainerDivO);
@@ -152,6 +156,7 @@ function footerSection() {
     footerSection.appendChild(inputTextArea);
     footerSection.appendChild(submitButton);
     footerSection.appendChild(footerContentContainer);
+    footerSection.appendChild(footerDivRights);
     footerContainer.appendChild(footerHeader);
 
 

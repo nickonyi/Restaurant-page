@@ -1,4 +1,4 @@
-import { navBar, pageHeaderContent } from "./page-header";
+import { navBar, pageHeaderContent, links } from "./page-header";
 import { timeSection } from "./time-section";
 import { aboutUs } from "./aboutUs";
 import { howItworks } from "./howItWorks";
@@ -17,6 +17,7 @@ timeSection();
 aboutUs();
 howItworks();
 menu();
+links();
 ratingSystem();
 testimonials();
 footerSection();
