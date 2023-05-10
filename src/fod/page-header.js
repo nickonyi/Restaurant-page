@@ -1,5 +1,5 @@
-import foodLogo from './food-logo.png';
-import bgImageOne from './bg-img-1.png';
+import foodLogo from '../assets/food-logo.png';
+import bgImageOne from '../assets/bg-img-1.png';
 const wrapper = document.createElement('section');
 wrapper.classList.add('header');
 document.body.appendChild(wrapper);
