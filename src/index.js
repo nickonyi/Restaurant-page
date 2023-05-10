@@ -1,1 +1,3 @@
-import './style.css';
+import initializeWebsite from "../pages/website";
+
+initializeWebsite();
