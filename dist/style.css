@@ -1,0 +1,55 @@
+:root {
+    --font-color: #eee;
+    --font-color-dark: #aaa;
+    --border-color: #222;
+    --primary-color: #e97406;
+    --background-light: rgba(0, 0, 0, 0.6);
+    --background-light-hover: rgba(99, 99, 99, 0.4);
+    --background-dark: rgba(0, 0, 0, 0.9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.6rem;
+    color: var(--font-color);
+}
+
+header {
+    font-size: 2.4rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+nav {
+    display: flex;
+    padding-inline: 20px;
+    border: 1px solid #df6868;
+}
+
+nav>div {
+    border: 1px solid yellow;
+}
+
+.button-nav.active {
+    border-bottom: 1px solid #df6868;
+}
